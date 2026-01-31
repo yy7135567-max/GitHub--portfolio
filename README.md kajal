@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f4f5;
+        }
+        header {
+            background: #292b2c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #1c1d1f;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+        }
+        .about, .skills, .projects, .contact {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .skills li {
+            margin-bottom: 5px;
+        }
+        footer {
+            background: #292b2c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>👋 Hi, I'm Kajal Yadav</h1>
+        <p>Web Developer | Student | Tech Explorer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a B.Sc IT student passionate about web development and designing beautiful websites using HTML, CSS and JavaScript.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Basic Python</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p>💻 Portfolio Website</p>
+        <p>📱 Responsive Landing Page</p>
+        <p>🎮 Basic JavaScript Game</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: kajal@example.com</p>
+        <p>Instagram: @kajal_codes</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Kajal Portfolio — All Rights Reserved</p>
+    </footer>
+</body>
+</html># GitHub--portfolio
